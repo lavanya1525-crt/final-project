@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collections - Golden Glow</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Cormorant+Garamond:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="page-wrapper">
+         <header class="site-header">
+            <div class="container header-container">
+                <div class="logo">
+                    <a href="index.html">Golden Glow</a>
+                </div>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="shop.html">SHOP</a></li>
+                        <li><a href="collections.html" class="active">COLLECTIONS</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </nav>
+                <div class="header-actions">
+                    <a href="#search" class="header-icon" aria-label="Search"><i class="fas fa-search"></i></a>
+                    <a href="#user" class="header-icon" aria-label="User Account"><i class="fas fa-user"></i></a>
+                    <a href="#cart" class="header-icon cart-icon" aria-label="Shopping Cart">
+                        <i class="fas fa-shopping-bag"></i>
+                        <span class="cart-count">0</span> <!-- Update dynamically -->
+                    </a>
+                </div>
+                <button class="mobile-nav-toggle" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </header>
+
+        <main>
+            <section class="page-title-section section-padding">
+                <div class="container">
+                    <h1 class="text-gold text-center">Our Curated Collections</h1>
+                    <p class="text-center">Explore themed collections designed to inspire and enchant.</p>
+                </div>
+            </section>
+
+             <!-- Re-using the "Shop by Category" structure for collections -->
+            <section class="shop-by-category-section section-padding" id="collections-showcase">
+                <div class="container">
+                    <div class="category-grid">
+                        <div class="category-card">
+                            <div class="category-icon-wrapper">
+                                <i class="fas fa-sun" style="font-size: 2.5em; color: #B08D57;"></i>
+                            </div>
+                            <h3>The Sunrise Collection</h3>
+                            <p>Golden hues inspired by the dawn.</p>
+                            <a href="#sunrise-collection" class="btn-explore">Explore Collection</a>
+                        </div>
+                        <div class="category-card has-bg-image">
+                            <img src="https://res.cloudinary.com/dfnzwever/image/upload/v1746961259/Diamond_20Thumbnails_hc0qgh.jpg" alt="Midnight Gems Collection" class="category-bg-image">
+                            <div class="category-content-overlay">
+                                <h3>Midnight Gems</h3>
+                                <p>Dark, mysterious, and alluring pieces.</p>
+                                <a href="#midnight-gems" class="btn-explore">Explore Collection</a>
+                            </div>
+                        </div>
+                         <div class="category-card">
+                            <div class="category-icon-wrapper">
+                               <i class="fas fa-feather-alt" style="font-size: 2.5em; color: #B08D57;"></i>
+                            </div>
+                            <h3>Bohemian Dreams</h3>
+                            <p>Free-spirited and artisanal designs.</p>
+                            <a href="#bohemian-dreams" class="btn-explore">Explore Collection</a>
+                        </div>
+                        <div class="category-card has-bg-image">
+                             <img src="https://res.cloudinary.com/dfnzwever/image/upload/v1746960914/Bs-Women-Watch-Famous-Luxury-Brands-Diamond-Ladies-Wrist-Watches-Female-Small-Wristwatch-Rose-Gold-Watch-Women-Montre-Femme-2021_ff4cea0c-a8a4-49cb-b465-ad48daa1b696.94d23a34df727f1c44131aa9c213a58a_h9iofo.jpg" alt="Classic Elegance Collection" class="category-bg-image">
+                            <div class="category-content-overlay">
+                                <h3>Classic Elegance</h3>
+                                <p>Timeless pieces for every occasion.</p>
+                                <a href="#classic-elegance" class="btn-explore">Explore Collection</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer-main">
+            <!-- ... (Copy footer from index.html) ... -->
+             <div class="container footer-grid">
+                <div class="footer-column">
+                    <h4 class="text-gold">Golden Glow</h4>
+                    <p>Crafting memories, one jewel at a time. Discover timeless elegance and unparalleled craftsmanship with Golden Glow.</p>
+                </div>
+                <div class="footer-column">
+                    <h5>SHOP</h5>
+                    <ul>
+                        <li><a href="#">New Arrivals</a></li>
+                        <li><a href="#">Best Sellers</a></li>
+                        <li><a href="#">Earrings</a></li>
+                        <li><a href="#">Necklaces</a></li>
+                        <li><a href="#">Rings</a></li>
+                        <li><a href="#">Bracelets</a></li>
+                        <li><a href="#">Collections</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h5>COMPANY</h5>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Sustainability</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h5>CUSTOMER SUPPORT</h5>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Shipping & Returns</a></li>
+                        <li><a href="#">Sizing Information</a></li>
+                        <li><a href="#">Jewelry Care</a></li>
+                        <li><a href="#">Track Order</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h5>CONNECT WITH US</h5>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 Golden Glow. All Rights Reserved.</p>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
